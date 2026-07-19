@@ -32,7 +32,7 @@ exercício e seguir em frente.
 | [Módulo 5](05-limpeza-de-dados/00-indice.md) | Limpeza de Dados | 1 semana |
 | [Módulo 6](06-estatistica-e-eda/00-indice.md) | Estatística e EDA | 1–2 semanas |
 | [Módulo 7](07-visualizacao/00-indice.md) | Visualização | 1–2 semanas |
-| [Projeto Final](08-projeto-final.md) | Projeto integrador | 3–5 dias |
+| [Projeto Final](08-projeto-final.md) | Case Olist — projeto integrador | 5–7 dias |
 
 Os tempos são só uma referência — vá no seu ritmo. O importante é sair de cada
 tópico conseguindo resolver o exercício sozinho.
