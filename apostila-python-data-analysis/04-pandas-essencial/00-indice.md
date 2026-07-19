@@ -28,5 +28,6 @@ nem tudo do jeito que você gostaria.
 10. [Merge, join e concatenação](10-merge-join-e-concatenacao.md)
 11. [Introdução a valores ausentes](11-introducao-a-valores-ausentes.md)
 12. [Tabelas dinâmicas (pivot_table)](12-tabelas-dinamicas-pivot-table.md)
+13. [Lista de exercícios](13-lista-de-exercicios.md)
 
 Depois de terminar todos os tópicos, siga para o [Módulo 5 — Limpeza de Dados](../05-limpeza-de-dados/00-indice.md).

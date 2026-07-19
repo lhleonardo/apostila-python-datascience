@@ -20,5 +20,6 @@ contextos de negócio.
 5. [Funções estatísticas e agregações](05-funcoes-estatisticas-e-agregacoes.md)
 6. [Reshape e dimensões](06-reshape-e-dimensoes.md)
 7. [Boolean masking e filtragem](07-boolean-masking-e-filtragem.md)
+8. [Lista de exercícios](08-lista-de-exercicios.md)
 
 Depois de terminar todos os tópicos, siga para o [Módulo 4 — Pandas Essencial](../04-pandas-essencial/00-indice.md).

@@ -21,5 +21,6 @@ contra a ferramenta.
 5. [Customização de gráficos](05-customizacao-de-graficos.md)
 6. [Introdução ao Seaborn](06-introducao-ao-seaborn.md)
 7. [Escolhendo o gráfico certo](07-escolhendo-o-grafico-certo.md)
+8. [Lista de exercícios](08-lista-de-exercicios.md)
 
 Depois de terminar todos os tópicos, siga para o [Projeto Final](../08-projeto-final.md).

@@ -20,5 +20,6 @@ duplicatas, tipos de dados, texto inconsistente, datas e outliers.
 5. [Trabalhando com datas](05-trabalhando-com-datas.md)
 6. [Outliers: detecção e tratamento](06-outliers-deteccao-e-tratamento.md)
 7. [Checklist de qualidade de dados](07-checklist-de-qualidade-de-dados.md)
+8. [Lista de exercícios](08-lista-de-exercicios.md)
 
 Depois de terminar todos os tópicos, siga para o [Módulo 6 — Estatística e EDA](../06-estatistica-e-eda/00-indice.md).

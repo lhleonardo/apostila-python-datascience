@@ -22,5 +22,6 @@ dados que você tem na mão e comunicar o que eles mostram.
 6. [Análise bivariada e segmentação](06-analise-bivariada-e-segmentacao.md)
 7. [Amostragem e introdução à inferência](07-amostragem-e-introducao-a-inferencia.md)
 8. [Estruturando uma EDA completa](08-estruturando-uma-eda-completa.md)
+9. [Lista de exercícios](09-lista-de-exercicios.md)
 
 Depois de terminar todos os tópicos, siga para o [Módulo 7 — Visualização](../07-visualizacao/00-indice.md).

@@ -36,6 +36,7 @@ zero, sem depender de nenhuma biblioteca externa.
 23. [*args e **kwargs](23-args-kwargs.md)
 24. [Funções lambda](24-funcoes-lambda.md)
 25. [Funções built-in (len, sum, map, filter...)](25-funcoes-built-in.md)
+26. [Lista de exercícios](26-lista-de-exercicios.md)
 
 Depois de terminar todos os tópicos, siga para o
 [Módulo 2 — Python Intermediário e Ambiente](../02-python-intermediario-ambiente/00-indice.md).

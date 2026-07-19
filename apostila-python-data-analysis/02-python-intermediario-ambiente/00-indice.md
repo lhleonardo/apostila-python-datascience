@@ -23,5 +23,6 @@ classes.
 9. [VS Code (configuração básica para Python)](09-vs-code.md)
 10. [JupyterLab](10-jupyterlab.md)
 11. [Google Colab](11-google-colab.md)
+12. [Lista de exercícios](12-lista-de-exercicios.md)
 
 Depois de terminar todos os tópicos, siga para o [Módulo 3 — NumPy](../03-numpy/00-indice.md).
