@@ -19,14 +19,15 @@ theme:
         icon: material/brightness-4
         name: Modo claro
   features:
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.top
     - navigation.indexes
-    - navigation.sections
-    - navigation.expand
-    - toc.integrate
     - search.suggest
     - search.highlight
     - content.code.copy
+extra_css:
+  - extra.css
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -41,8 +42,8 @@ plugins:
 
 nav:
   - Início: "README.md"
-  - "Módulo 1 — Fundamentos de Python":
-      - "Índice do módulo": 01-fundamentos-python/00-indice.md
+  - "Módulo 1":
+      - "Módulo 1 — Fundamentos de Python": 01-fundamentos-python/00-indice.md
       - "Introdução": 01-fundamentos-python/01-introducao.md
       - "Ambiente de desenvolvimento": 01-fundamentos-python/02-ambiente-de-desenvolvimento.md
       - "Variáveis e print()": 01-fundamentos-python/03-variaveis-e-print.md
@@ -69,8 +70,8 @@ nav:
       - "Funções lambda": 01-fundamentos-python/24-funcoes-lambda.md
       - "Funções built-in (len, sum, map, filter, etc.)": 01-fundamentos-python/25-funcoes-built-in.md
       - "Lista de exercícios — Módulo 1": 01-fundamentos-python/26-lista-de-exercicios.md
-  - "Módulo 2 — Python Intermediário e Ambiente":
-      - "Índice do módulo": 02-python-intermediario-ambiente/00-indice.md
+  - "Módulo 2":
+      - "Módulo 2 — Python Intermediário e Ambiente": 02-python-intermediario-ambiente/00-indice.md
       - "OOP para análise de dados": 02-python-intermediario-ambiente/01-oop-para-analise-de-dados.md
       - "Módulo random": 02-python-intermediario-ambiente/02-modulo-random.md
       - "Expressões regulares (re) — nível básico": 02-python-intermediario-ambiente/03-expressoes-regulares.md
@@ -83,8 +84,8 @@ nav:
       - "JupyterLab": 02-python-intermediario-ambiente/10-jupyterlab.md
       - "Google Colab": 02-python-intermediario-ambiente/11-google-colab.md
       - "Lista de exercícios — Módulo 2": 02-python-intermediario-ambiente/12-lista-de-exercicios.md
-  - "Módulo 3 — NumPy":
-      - "Índice do módulo": 03-numpy/00-indice.md
+  - "Módulo 3":
+      - "Módulo 3 — NumPy": 03-numpy/00-indice.md
       - "Introdução ao NumPy": 03-numpy/01-introducao-ao-numpy.md
       - "Criando arrays": 03-numpy/02-criando-arrays.md
       - "Indexação e slicing": 03-numpy/03-indexacao-e-slicing.md
@@ -93,8 +94,8 @@ nav:
       - "Reshape e dimensões": 03-numpy/06-reshape-e-dimensoes.md
       - "Boolean masking e filtragem": 03-numpy/07-boolean-masking-e-filtragem.md
       - "Lista de exercícios — Módulo 3": 03-numpy/08-lista-de-exercicios.md
-  - "Módulo 4 — Pandas Essencial":
-      - "Índice do módulo": 04-pandas-essencial/00-indice.md
+  - "Módulo 4":
+      - "Módulo 4 — Pandas Essencial": 04-pandas-essencial/00-indice.md
       - "Introdução ao Pandas: Series e DataFrame": 04-pandas-essencial/01-introducao-series-dataframe.md
       - "Lendo e escrevendo dados (CSV, Excel, JSON)": 04-pandas-essencial/02-lendo-e-escrevendo-dados.md
       - "Explorando um DataFrame": 04-pandas-essencial/03-explorando-um-dataframe.md
@@ -108,8 +109,8 @@ nav:
       - "Introdução a valores ausentes": 04-pandas-essencial/11-introducao-a-valores-ausentes.md
       - "Tabelas dinâmicas (pivot_table)": 04-pandas-essencial/12-tabelas-dinamicas-pivot-table.md
       - "Lista de exercícios — Módulo 4": 04-pandas-essencial/13-lista-de-exercicios.md
-  - "Módulo 5 — Limpeza de Dados":
-      - "Índice do módulo": 05-limpeza-de-dados/00-indice.md
+  - "Módulo 5":
+      - "Módulo 5 — Limpeza de Dados": 05-limpeza-de-dados/00-indice.md
       - "Estratégias para valores ausentes": 05-limpeza-de-dados/01-estrategias-para-valores-ausentes.md
       - "Duplicatas": 05-limpeza-de-dados/02-duplicatas.md
       - "Tipos de dados e conversão": 05-limpeza-de-dados/03-tipos-de-dados-e-conversao.md
@@ -118,8 +119,8 @@ nav:
       - "Outliers: detecção e tratamento": 05-limpeza-de-dados/06-outliers-deteccao-e-tratamento.md
       - "Checklist de qualidade de dados": 05-limpeza-de-dados/07-checklist-de-qualidade-de-dados.md
       - "Lista de exercícios — Módulo 5": 05-limpeza-de-dados/08-lista-de-exercicios.md
-  - "Módulo 6 — Estatística e EDA":
-      - "Índice do módulo": 06-estatistica-e-eda/00-indice.md
+  - "Módulo 6":
+      - "Módulo 6 — Estatística e EDA": 06-estatistica-e-eda/00-indice.md
       - "Medidas de tendência central": 06-estatistica-e-eda/01-medidas-de-tendencia-central.md
       - "Medidas de dispersão": 06-estatistica-e-eda/02-medidas-de-dispersao.md
       - "Distribuições e histogramas": 06-estatistica-e-eda/03-distribuicoes-e-histogramas.md
@@ -129,8 +130,8 @@ nav:
       - "Amostragem e introdução à inferência": 06-estatistica-e-eda/07-amostragem-e-introducao-a-inferencia.md
       - "Estruturando uma EDA completa": 06-estatistica-e-eda/08-estruturando-uma-eda-completa.md
       - "Lista de exercícios — Módulo 6": 06-estatistica-e-eda/09-lista-de-exercicios.md
-  - "Módulo 7 — Visualização":
-      - "Índice do módulo": 07-visualizacao/00-indice.md
+  - "Módulo 7":
+      - "Módulo 7 — Visualização": 07-visualizacao/00-indice.md
       - "Introdução ao Matplotlib": 07-visualizacao/01-introducao-ao-matplotlib.md
       - "Gráficos de linha e barra": 07-visualizacao/02-graficos-de-linha-e-barra.md
       - "Histogramas e boxplots": 07-visualizacao/03-histogramas-e-boxplots.md
@@ -139,4 +140,4 @@ nav:
       - "Introdução ao Seaborn": 07-visualizacao/06-introducao-ao-seaborn.md
       - "Escolhendo o gráfico certo": 07-visualizacao/07-escolhendo-o-grafico-certo.md
       - "Lista de exercícios — Módulo 7": 07-visualizacao/08-lista-de-exercicios.md
-  - "Projeto Final — Projeto Integrador": "08-projeto-final.md"
+  - "Projeto Final": "08-projeto-final.md"
