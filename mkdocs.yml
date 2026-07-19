@@ -1,0 +1,133 @@
+site_name: Python para Análise de Dados
+site_description: Apostila de Python para Análise de Dados, do básico ao intermediário/avançado
+docs_dir: apostila-python-data-analysis
+site_dir: site
+theme:
+  name: material
+  language: pt-BR
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Modo escuro
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Modo claro
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - tables
+  - toc:
+      permalink: true
+plugins:
+  - search
+
+nav:
+  - Início: "README.md"
+  - "Módulo 1 — Fundamentos de Python":
+      - "Índice do módulo": 01-fundamentos-python/00-indice.md
+      - "Introdução": 01-fundamentos-python/01-introducao.md
+      - "Ambiente de desenvolvimento": 01-fundamentos-python/02-ambiente-de-desenvolvimento.md
+      - "Variáveis e print()": 01-fundamentos-python/03-variaveis-e-print.md
+      - "Inteiros (int)": 01-fundamentos-python/04-inteiros.md
+      - "Floats": 01-fundamentos-python/05-floats.md
+      - "Booleanos": 01-fundamentos-python/06-booleanos.md
+      - "Conversão de tipos (type casting)": 01-fundamentos-python/07-conversao-de-tipos.md
+      - "Operadores aritméticos": 01-fundamentos-python/08-operadores-aritmeticos.md
+      - "Operadores de comparação": 01-fundamentos-python/09-operadores-de-comparacao.md
+      - "Operadores lógicos": 01-fundamentos-python/10-operadores-logicos.md
+      - "Condicionais (if/elif/else)": 01-fundamentos-python/11-condicionais.md
+      - "Loops (for/while)": 01-fundamentos-python/12-loops.md
+      - "Strings (fundamentos)": 01-fundamentos-python/13-strings-fundamentos.md
+      - "Trabalhando com strings (métodos gerais)": 01-fundamentos-python/14-metodos-de-string.md
+      - "strip, replace, split": 01-fundamentos-python/15-strip-replace-split.md
+      - "Listas": 01-fundamentos-python/16-listas.md
+      - "Tuplas": 01-fundamentos-python/17-tuplas.md
+      - "Dicionários": 01-fundamentos-python/18-dicionarios.md
+      - "Sets": 01-fundamentos-python/19-sets.md
+      - "List comprehensions": 01-fundamentos-python/20-list-comprehensions.md
+      - "Funções e métodos (diferença entre os dois)": 01-fundamentos-python/21-funcoes-e-metodos.md
+      - "Definindo funções (def, parâmetros, return)": 01-fundamentos-python/22-definindo-funcoes.md
+      - "*args e **kwargs": 01-fundamentos-python/23-args-kwargs.md
+      - "Funções lambda": 01-fundamentos-python/24-funcoes-lambda.md
+      - "Funções built-in (len, sum, map, filter, etc.)": 01-fundamentos-python/25-funcoes-built-in.md
+  - "Módulo 2 — Python Intermediário e Ambiente":
+      - "Índice do módulo": 02-python-intermediario-ambiente/00-indice.md
+      - "OOP para análise de dados": 02-python-intermediario-ambiente/01-oop-para-analise-de-dados.md
+      - "Módulo random": 02-python-intermediario-ambiente/02-modulo-random.md
+      - "Expressões regulares (re) — nível básico": 02-python-intermediario-ambiente/03-expressoes-regulares.md
+      - "JSON (ler e escrever)": 02-python-intermediario-ambiente/04-json.md
+      - "CSV (ler e escrever sem pandas)": 02-python-intermediario-ambiente/05-csv.md
+      - "pip (instalando pacotes)": 02-python-intermediario-ambiente/06-pip.md
+      - "Ambientes virtuais (venv)": 02-python-intermediario-ambiente/07-ambientes-virtuais-venv.md
+      - "Conda (alternativa ao venv)": 02-python-intermediario-ambiente/08-conda.md
+      - "VS Code (configuração básica para Python)": 02-python-intermediario-ambiente/09-vs-code.md
+      - "JupyterLab": 02-python-intermediario-ambiente/10-jupyterlab.md
+      - "Google Colab": 02-python-intermediario-ambiente/11-google-colab.md
+  - "Módulo 3 — NumPy":
+      - "Índice do módulo": 03-numpy/00-indice.md
+      - "Introdução ao NumPy": 03-numpy/01-introducao-ao-numpy.md
+      - "Criando arrays": 03-numpy/02-criando-arrays.md
+      - "Indexação e slicing": 03-numpy/03-indexacao-e-slicing.md
+      - "Operações vetorizadas e broadcasting": 03-numpy/04-operacoes-vetorizadas-e-broadcasting.md
+      - "Funções estatísticas e agregações": 03-numpy/05-funcoes-estatisticas-e-agregacoes.md
+      - "Reshape e dimensões": 03-numpy/06-reshape-e-dimensoes.md
+      - "Boolean masking e filtragem": 03-numpy/07-boolean-masking-e-filtragem.md
+  - "Módulo 4 — Pandas Essencial":
+      - "Índice do módulo": 04-pandas-essencial/00-indice.md
+      - "Introdução ao Pandas: Series e DataFrame": 04-pandas-essencial/01-introducao-series-dataframe.md
+      - "Lendo e escrevendo dados (CSV, Excel, JSON)": 04-pandas-essencial/02-lendo-e-escrevendo-dados.md
+      - "Explorando um DataFrame": 04-pandas-essencial/03-explorando-um-dataframe.md
+      - "Seleção e indexação (loc, iloc)": 04-pandas-essencial/04-selecao-e-indexacao.md
+      - "Filtragem de dados": 04-pandas-essencial/05-filtragem-de-dados.md
+      - "Criando e modificando colunas": 04-pandas-essencial/06-criando-e-modificando-colunas.md
+      - "Ordenação": 04-pandas-essencial/07-ordenacao.md
+      - "Agrupamento com groupby": 04-pandas-essencial/08-agrupamento-com-groupby.md
+      - "Agregações com agg": 04-pandas-essencial/09-agregacoes-com-agg.md
+      - "Merge, join e concatenação": 04-pandas-essencial/10-merge-join-e-concatenacao.md
+      - "Introdução a valores ausentes": 04-pandas-essencial/11-introducao-a-valores-ausentes.md
+      - "Tabelas dinâmicas (pivot_table)": 04-pandas-essencial/12-tabelas-dinamicas-pivot-table.md
+  - "Módulo 5 — Limpeza de Dados":
+      - "Índice do módulo": 05-limpeza-de-dados/00-indice.md
+      - "Estratégias para valores ausentes": 05-limpeza-de-dados/01-estrategias-para-valores-ausentes.md
+      - "Duplicatas": 05-limpeza-de-dados/02-duplicatas.md
+      - "Tipos de dados e conversão": 05-limpeza-de-dados/03-tipos-de-dados-e-conversao.md
+      - "Limpeza de texto": 05-limpeza-de-dados/04-limpeza-de-texto.md
+      - "Trabalhando com datas": 05-limpeza-de-dados/05-trabalhando-com-datas.md
+      - "Outliers: detecção e tratamento": 05-limpeza-de-dados/06-outliers-deteccao-e-tratamento.md
+      - "Checklist de qualidade de dados": 05-limpeza-de-dados/07-checklist-de-qualidade-de-dados.md
+  - "Módulo 6 — Estatística e EDA":
+      - "Índice do módulo": 06-estatistica-e-eda/00-indice.md
+      - "Medidas de tendência central": 06-estatistica-e-eda/01-medidas-de-tendencia-central.md
+      - "Medidas de dispersão": 06-estatistica-e-eda/02-medidas-de-dispersao.md
+      - "Distribuições e histogramas": 06-estatistica-e-eda/03-distribuicoes-e-histogramas.md
+      - "Correlação entre variáveis": 06-estatistica-e-eda/04-correlacao-entre-variaveis.md
+      - "Análise univariada com Pandas": 06-estatistica-e-eda/05-analise-univariada-com-pandas.md
+      - "Análise bivariada e segmentação": 06-estatistica-e-eda/06-analise-bivariada-e-segmentacao.md
+      - "Amostragem e introdução à inferência": 06-estatistica-e-eda/07-amostragem-e-introducao-a-inferencia.md
+      - "Estruturando uma EDA completa": 06-estatistica-e-eda/08-estruturando-uma-eda-completa.md
+  - "Módulo 7 — Visualização":
+      - "Índice do módulo": 07-visualizacao/00-indice.md
+      - "Introdução ao Matplotlib": 07-visualizacao/01-introducao-ao-matplotlib.md
+      - "Gráficos de linha e barra": 07-visualizacao/02-graficos-de-linha-e-barra.md
+      - "Histogramas e boxplots": 07-visualizacao/03-histogramas-e-boxplots.md
+      - "Scatter plots e relação entre variáveis": 07-visualizacao/04-scatter-plots-e-relacao-entre-variaveis.md
+      - "Customização de gráficos": 07-visualizacao/05-customizacao-de-graficos.md
+      - "Introdução ao Seaborn": 07-visualizacao/06-introducao-ao-seaborn.md
+      - "Escolhendo o gráfico certo": 07-visualizacao/07-escolhendo-o-grafico-certo.md
+  - "Projeto Final — Projeto Integrador": "08-projeto-final.md"
