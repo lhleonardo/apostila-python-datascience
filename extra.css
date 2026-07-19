@@ -1,0 +1,38 @@
+/* Deixa a barra de abas do topo claramente arrastável/rolável quando os
+   módulos não cabem todos na largura da tela, em vez de simplesmente
+   cortar sem indicação visual. */
+.md-tabs__list {
+  scrollbar-width: thin;
+  scrollbar-color: var(--md-default-fg-color--lighter) transparent;
+}
+
+.md-tabs__list::-webkit-scrollbar {
+  height: 6px;
+}
+
+.md-tabs__list::-webkit-scrollbar-thumb {
+  background-color: var(--md-default-fg-color--lighter);
+  border-radius: 4px;
+}
+
+.md-tabs__list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Sombras nas bordas indicando que há mais conteúdo para rolar */
+.md-tabs__list {
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 16px,
+    black calc(100% - 16px),
+    transparent
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 16px,
+    black calc(100% - 16px),
+    transparent
+  );
+}

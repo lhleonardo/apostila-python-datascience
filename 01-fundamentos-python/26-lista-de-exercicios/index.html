@@ -51,6 +51,8 @@
       
     
     
+      <link rel="stylesheet" href="../../extra.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -90,7 +92,7 @@
 
   
 
-<header class="md-header md-header--shadow" data-md-component="header">
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
     <a href="../.." title="Python para Análise de Dados" class="md-header__button md-logo" aria-label="Python para Análise de Dados" data-md-component="logo">
       
@@ -195,13 +197,216 @@
     
   </nav>
   
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Início
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../00-indice/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Módulo 1
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../02-python-intermediario-ambiente/00-indice/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Módulo 2
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../03-numpy/00-indice/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Módulo 3
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../04-pandas-essencial/00-indice/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Módulo 4
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../05-limpeza-de-dados/00-indice/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Módulo 5
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../06-estatistica-e-eda/00-indice/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Módulo 6
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../07-visualizacao/00-indice/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Módulo 7
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../08-projeto-final/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Projeto Final
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
 </header>
     
     <div class="md-container" data-md-component="container">
       
       
-        
-          
         
       
       <main class="md-main" data-md-component="main">
@@ -215,10 +420,10 @@
                     
 
 
-
   
 
-<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navegação" data-md-level="0">
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../.." title="Python para Análise de Dados" class="md-nav__button md-logo" aria-label="Python para Análise de Dados" data-md-component="logo">
       
@@ -330,6 +535,7 @@
         
         
       
+      
     
     
     <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
@@ -346,7 +552,7 @@
   <span class="md-ellipsis">
     
   
-    Módulo 1 — Fundamentos de Python
+    Módulo 1
   
 
     
@@ -362,7 +568,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Módulo 1 — Fundamentos de Python
+    Módulo 1
   
 
           </label>
@@ -382,7 +588,7 @@
   <span class="md-ellipsis">
     
   
-    Índice do módulo
+    Módulo 1 — Fundamentos de Python
   
 
     
@@ -1492,28 +1698,24 @@
     
     
       
-        
-        
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
             
   
   
   <span class="md-ellipsis">
     
   
-    Módulo 2 — Python Intermediário e Ambiente
+    Módulo 2
   
 
     
@@ -1529,7 +1731,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Módulo 2 — Python Intermediário e Ambiente
+    Módulo 2
   
 
           </label>
@@ -1549,7 +1751,7 @@
   <span class="md-ellipsis">
     
   
-    Índice do módulo
+    Módulo 2 — Python Intermediário e Ambiente
   
 
     
@@ -1937,28 +2139,24 @@
     
     
       
-        
-        
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
         
           
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
             
   
   
   <span class="md-ellipsis">
     
   
-    Módulo 3 — NumPy
+    Módulo 3
   
 
     
@@ -1974,7 +2172,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Módulo 3 — NumPy
+    Módulo 3
   
 
           </label>
@@ -1994,7 +2192,7 @@
   <span class="md-ellipsis">
     
   
-    Índice do módulo
+    Módulo 3 — NumPy
   
 
     
@@ -2280,28 +2478,24 @@
     
     
       
-        
-        
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
             
   
   
   <span class="md-ellipsis">
     
   
-    Módulo 4 — Pandas Essencial
+    Módulo 4
   
 
     
@@ -2317,7 +2511,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Módulo 4 — Pandas Essencial
+    Módulo 4
   
 
           </label>
@@ -2337,7 +2531,7 @@
   <span class="md-ellipsis">
     
   
-    Índice do módulo
+    Módulo 4 — Pandas Essencial
   
 
     
@@ -2753,28 +2947,24 @@
     
     
       
-        
-        
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
         
           
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
             
   
   
   <span class="md-ellipsis">
     
   
-    Módulo 5 — Limpeza de Dados
+    Módulo 5
   
 
     
@@ -2790,7 +2980,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Módulo 5 — Limpeza de Dados
+    Módulo 5
   
 
           </label>
@@ -2810,7 +3000,7 @@
   <span class="md-ellipsis">
     
   
-    Índice do módulo
+    Módulo 5 — Limpeza de Dados
   
 
     
@@ -3088,28 +3278,24 @@
     
     
       
-        
-        
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
         
           
-          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
             
   
   
   <span class="md-ellipsis">
     
   
-    Módulo 6 — Estatística e EDA
+    Módulo 6
   
 
     
@@ -3125,7 +3311,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Módulo 6 — Estatística e EDA
+    Módulo 6
   
 
           </label>
@@ -3145,7 +3331,7 @@
   <span class="md-ellipsis">
     
   
-    Índice do módulo
+    Módulo 6 — Estatística e EDA
   
 
     
@@ -3449,28 +3635,24 @@
     
     
       
-        
-        
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
         
           
-          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
             
   
   
   <span class="md-ellipsis">
     
   
-    Módulo 7 — Visualização
+    Módulo 7
   
 
     
@@ -3486,7 +3668,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Módulo 7 — Visualização
+    Módulo 7
   
 
           </label>
@@ -3506,7 +3688,7 @@
   <span class="md-ellipsis">
     
   
-    Índice do módulo
+    Módulo 7 — Visualização
   
 
     
@@ -3765,7 +3947,7 @@
   <span class="md-ellipsis">
     
   
-    Projeto Final — Projeto Integrador
+    Projeto Final
   
 
     
@@ -3784,6 +3966,307 @@
                 </div>
               </div>
             
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Introdução
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-ambiente-de-desenvolvimento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Ambiente de desenvolvimento
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-variaveis-e-print" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Variáveis e print()
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-inteiros-int" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Inteiros (int)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-floats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Floats
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-booleanos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Booleanos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-conversao-de-tipos-type-casting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Conversão de tipos (type casting)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-operadores-aritmeticos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Operadores aritméticos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-operadores-de-comparacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Operadores de comparação
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-operadores-logicos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Operadores lógicos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-condicionais-ifelifelse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Condicionais (if/elif/else)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-loops-forwhile" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12. Loops (for/while)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13-strings-fundamentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13. Strings (fundamentos)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#14-trabalhando-com-strings-metodos-gerais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14. Trabalhando com strings (métodos gerais)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#15-strip-replace-split" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15. strip, replace, split
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#16-listas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        16. Listas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#17-tuplas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        17. Tuplas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#18-dicionarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        18. Dicionários
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#19-sets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        19. Sets
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#20-list-comprehensions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        20. List comprehensions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#21-funcoes-e-metodos-diferenca-entre-os-dois" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        21. Funções e métodos (diferença entre os dois)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#22-definindo-funcoes-def-parametros-return" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        22. Definindo funções (def, parâmetros, return)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#23-args-e-kwargs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        23. args e *kwargs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#24-funcoes-lambda" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        24. Funções lambda
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#25-funcoes-built-in-len-sum-map-filter-etc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        25. Funções built-in (len, sum, map, filter, etc.)
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
             
           
           
@@ -5961,7 +6444,7 @@ depois de cada bloco, dentro de um "clique para ver".</p>
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.top", "navigation.indexes", "navigation.sections", "navigation.expand", "toc.integrate", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
