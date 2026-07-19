@@ -19,9 +19,11 @@ theme:
         icon: material/brightness-4
         name: Modo claro
   features:
-    - navigation.tabs
     - navigation.top
     - navigation.indexes
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
     - search.suggest
     - search.highlight
     - content.code.copy
